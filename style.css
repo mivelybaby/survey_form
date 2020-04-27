@@ -1,0 +1,61 @@
+body{
+    background-color: greenyellow;
+    font-family:'Noto Sans', sans-serif;
+    padding-left:20%;
+    padding-right:20%;
+    }
+
+header{
+    text-align: center;
+    }
+
+form{
+    background-color:white;
+    padding:30px 30px 30px 30px;
+    border-radius:20px;
+    }
+
+input[type="text"],input[type="email"],input[type="number"]{
+    border:none;
+    border-bottom:3px dashed greenyellow;
+    width:70%;
+    font-size:15px;
+    }
+
+span{
+    display:inline-block;
+    background-color:greenyellow;
+    color:white;
+    width:35px;
+    padding:10px;
+    border-radius:100%;
+    text-align:center;
+    margin-right:10px;
+    }
+
+label{
+    font-size:20px;
+    }
+
+select,input[type="submit"]{
+    border:3px dashed greenyellow;
+    font-size:15px;
+    }
+
+textarea{
+    border:3px dashed greenyellow;
+    width:99%;
+    height:70px;
+    }
+
+input[type="submit"]{
+    border:3px dashed greenyellow;
+    width:100%;
+    font-size:30px;
+    }
+
+footer{
+    text-align: center;
+    font-size:10px;
+    padding-top:100px;
+    }

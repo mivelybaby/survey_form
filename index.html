@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey</title>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1 id="title">Tell Me About Music</h1>
+            <p id="description">This is a survey where you can tell us about music you're inspired by.
+            </p>
+        </header>
+
+        <form id="survey-form">
+            <h2><span>1</span>Personal Information</h2>
+        
+        <div id="personal-info">
+            <label id="name-label">
+                User name: </label><br>
+            <input type="text" name="name" id="name" required placeholder="Enter your name"><br>
+            <label id="email-label">
+                Email: </label><br>
+            <input type="email" name="email" id="email" required placeholder="Enter your email"><br>
+            <label id="number-label">
+                Age: </label><br>
+            <input type="number" name="number" id="number" min="0" max="120" required placeholder="Enter your age"><br>
+        </div>
+            
+            <h2><span>2</span>Questions</h2>
+        
+        <div>
+            <h3>How many hours a day do you listen to music?</h3>
+            <select id="dropdown" name="hours">
+                <option disabled selected>Select an option</option>
+                <option value="less">Less than an hour</option>
+                <option value="1-2hours">1-2 Hours</option>
+                <option value="3-4hours">3-4 Hours</option>
+                <option value="over">Over 4 Hours</Option>
+            </select>
+        </div>
+
+        <div>
+            <h3>How do you mostly listen to music?</h3>
+            <input type="radio" name="how" value="youtube">Youtube<br>
+            <input type="radio" name="how" value="radio">Radio<br>
+            <input type="radio" name="how" value="tv">TV<br>
+            <input type="radio" name="how" value="sound">Sound Cloud<br>
+            <input type="radio" name="how" value="itunes">Itunes<br>
+            <input type="radio" name="how" value="mp3">MP3 Player<br>
+            <input type="radio" name="how" value="other">Other<br>
+        </div>
+
+        <div>
+            <h3>What is your favorite music genres?</h3>
+            <input type="checkbox" name="genres1" value="edm">Electronic Dance Music<br>
+            <input type="checkbox" name="genres2" value="rock">Rock Music<br>
+            <input type="checkbox" name="genres3" value="jazz">Jazz<br>
+            <input type="checkbox" name="genres4" value="dubstep">Dubstep<br>
+            <input type="checkbox" name="genres5" value="r&b">Rhythm and Blues<br>
+            <input type="checkbox" name="genres6" value="techno">Techno<br>
+            <input type="checkbox" name="genres7" value="country">Country Music<br>
+            <input type="checkbox" name="genres8" value="electro">Electro<br>
+            <input type="checkbox" name="genres9" value="indie">Indie Rock<br>
+            <input type="checkbox" name="genres10" value="pop">Pop Music<br>
+            <input type="checkbox" name="genres11" value="other">other<br>
+        </div>
+        
+        <div>
+            <h3>Any Comments or Suggestion?</h3>
+            <textarea placeholder="Enter your comment here" rows="4"></textarea><br>
+            <input type="submit" id="submit" value="submit">
+        </div>
+        </form>
+
+        <footer>
+        <p>
+        Created by Mimi
+        <br>
+        Copyright ⓒ 2020
+        </p>
+        </footer>
+    </body>
+
+</html>
